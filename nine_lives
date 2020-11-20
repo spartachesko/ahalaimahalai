@@ -1,7 +1,9 @@
 import random
 
 lives = 9
-words = ['пицца', 'дурак', 'забор', 'замок', 'лапти', 'корка']
+words = ['пицца', 'дурак', 'забор', 'замок', 'лапти', 'корка', 'черед', 'конец', 'маска']
+difficulty = input('Выбери уровень сложности (вариант 1, 2 или 3):\n 1 Легко\n 2 Средне\n 3 Сложно\n')
+difficulty = int(difficulty)
 secret_word = random.choice(words)
 clue = list('?????')
 heart_symbol = u'\u2764'
