@@ -1,2 +1,8 @@
-a = 'Hello world'
-print(a)
+import webbrowser
+# webbrowser.open('https://docs.python.org/3/library')
+from time import time as time_now
+now = time_now()
+print(now)
+
+# a = 'Hello world'
+# print(a)
