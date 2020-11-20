@@ -26,10 +26,10 @@ while lives > 0:
     if guess in secret_word:
         update_clue(guess, secret_word, clue)
     else:
-        print('Incorrect. You lose a life')
+        print('Неверно. Ты потерял одну жизнь')
         lives = lives - 1
 
 if guessed_word_correctly:
-    print('You won! The secret word was ' + secret_word)
+    print('Ты выиграл! Секретное слово было ' + secret_word)
 else:
-    print('You lost! The secret word was ' + secret_word)
+    print('Ты проиграл! Секретное слово было ' + secret_word)
